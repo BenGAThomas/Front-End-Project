@@ -1,0 +1,55 @@
+#teamName {
+    font-family: cursive;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+#teamInfo {
+    font-family: monospace;
+    font-size: 30px;
+    font-weight:lighter;
+}
+
+#logo img {
+    height: 20px;
+    width: 20px;
+}
+
+#leftBall img {
+    height: 20px;
+    width: 20px;
+}
+
+#rightBall img {
+    height: 20px;
+    width: 20px;
+}
+
+.row {
+    justify-content: space-between;
+}
+
+
+
+.teamImage {
+    height: 150px;
+    width: 150px;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+ .teamImage:hover {
+    border: 10px solid rgb(0, 0, 0);
+ }
+
+#teamFounded {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#teamVenueName {
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#teamVenueCapacity {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
