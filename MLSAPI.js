@@ -14,6 +14,7 @@ const options = {
 // let myApiTestTwo = document.getElementById("teamsList");
 let teamImageDiv = document.getElementById("imageDiv");
 
+//this is to get the data into a format to work with
 
 function getTest() {
   fetch(leagueAPI, options)
@@ -57,6 +58,8 @@ function getTest() {
       })
     });
 }
+
+//sends the information into the MLSAPI html
 
 function showRestOfTeam(teamInformation) {
   document.getElementById("teamName").innerHTML = teamInformation.name;
